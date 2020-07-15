@@ -1,0 +1,25 @@
+.user-msg {
+    font-weight: bold;
+}
+
+.course-btns {
+    margin: auto auto;
+}
+
+.course-btn {
+    height: 52px;
+    width: 400px;
+    font-size: 18px;
+    background: #cc0000;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    padding: 13px 12px;
+}
+
+.course-btn:hover {
+    background: #900600;
+    color: #ffffff;
+}

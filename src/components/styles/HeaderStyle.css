@@ -1,0 +1,18 @@
+.navbar {
+    background: #000000;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.search-btn {
+    background: #cc0000;
+    color: #ffffff;
+}
+
+.search-btn:hover {
+    background: #900600;
+    color: #ffffff;
+}

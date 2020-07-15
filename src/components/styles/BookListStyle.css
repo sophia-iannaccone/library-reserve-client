@@ -1,0 +1,30 @@
+.book-result {
+    padding: 16px 0px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.book-cover {
+    height: 150px;
+    width: 120px;
+}
+
+.book-cover-lg {
+    height: 400px;
+    width: 350px;
+}
+
+.book-title {
+    color: #44707b;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+
+.book-dtl {
+    font-size: 18px;
+}
+
+.sub-text {
+    font-weight: bold;
+    color: #6c757d;
+}
