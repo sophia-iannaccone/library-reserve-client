@@ -17,7 +17,7 @@ class HeaderComponent extends React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link onClick={this.logout()}>Log Out</Nav.Link>
+                        <Nav.Link  to={`/`}>Log Out</Nav.Link>
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search Snell's Full Catalog" className="mr-sm-2"/>

@@ -77,7 +77,7 @@ class BookListComponent extends React.Component {
                             }
                             {
                                 this.state.currUser.role === "FACULTY" &&
-                                <button className="btn btn-success"
+                                <button className="btn btn-success mb-2"
                                         onClick={() => this.setState({showRequestForm: true})}>
                                     Want to add a book to your course's reserve? Click here!
                                 </button>

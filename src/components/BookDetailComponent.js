@@ -49,7 +49,7 @@ const BookDetailComponent = (props) => {
                                     props.book.available == 0 &&
                                     <div>
                                         <p style={{color: "red"}}>This book is currently on loan.</p>
-                                        <p>It will be available again in at </p>
+                                        <p>It will be available again at </p>
                                         {
                                             BookService.convertDate(props.book.lastCheckout)
                                         }
